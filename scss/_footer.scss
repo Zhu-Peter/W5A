@@ -1,5 +1,7 @@
+@import "general";
+
 .footer_main{
-    background-color: darkblue;
+    background-color: $base-color;
     display: grid;
     text-align: center;
     padding: 40px;

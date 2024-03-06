@@ -1,13 +1,16 @@
+@import "general";
+
 .header_main{
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    background-color: darkblue;
+    background-color: $base-color;
 
     >.header_logo{
         color: white;
         font-weight: bold;
         margin: 5px 0px;
+        margin-left: 8px;
     }
 
     >.header_nav{

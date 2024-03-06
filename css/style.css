@@ -2,12 +2,13 @@
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  background-color: darkblue;
+  background-color: rgb(23, 23, 124);
 }
 .header_main > .header_logo {
   color: white;
   font-weight: bold;
   margin: 5px 0px;
+  margin-left: 8px;
 }
 .header_main > .header_nav {
   display: grid;
@@ -19,7 +20,7 @@
 }
 
 .footer_main {
-  background-color: darkblue;
+  background-color: rgb(23, 23, 124);
   display: grid;
   text-align: center;
   padding: 40px;
@@ -34,14 +35,21 @@
 main {
   text-align: center;
   padding: 50px;
-  background-color: lightblue;
+  background-color: rgb(135, 167, 255);
 }
 main > img {
   border-radius: 50%;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 5px solid darkblue;
-  box-shadow: 5px 5px 5px 5px darkblue;
+  border: 5px solid rgb(23, 23, 124);
+  box-shadow: 5px 5px 5px 5px rgb(23, 23, 124);
+  transition: 0.5s;
+}
+main > img:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px 5px rgb(23, 23, 124);
+  border: 5px solid rgb(23, 23, 124);
+  border-radius: 0%;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -49,7 +57,7 @@ main > figcaption {
   text-align: center;
   font-size: 1.5em;
   font-style: italic;
-  color: darkblue;
+  color: rgb(23, 23, 124);
   margin-top: 10px;
   margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
