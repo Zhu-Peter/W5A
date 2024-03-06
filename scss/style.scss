@@ -1,3 +1,29 @@
 @import "header";
 @import "footer";
 
+main{
+    text-align: center;
+    padding: 50px;
+    background-color: lightblue;
+
+    >img{
+        border-radius: 50%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border: 5px solid darkblue;
+        box-shadow: 5px 5px 5px 5px darkblue;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    >figcaption{
+        text-align: center;
+        font-size: 1.5em;
+        font-style: italic;
+        color: darkblue;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+}

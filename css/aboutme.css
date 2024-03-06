@@ -1,1 +1,36 @@
-/*# sourceMappingURL=aboutme.css.map */
+.header_main {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  background-color: darkblue;
+}
+.header_main > .header_logo {
+  color: white;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.header_main > .header_nav {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.header_main > .header_nav > a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footer_main {
+  background-color: darkblue;
+  display: grid;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 0;
+  color: white;
+}
+.footer_main a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 100px 30px;
+}/*# sourceMappingURL=aboutme.css.map */
