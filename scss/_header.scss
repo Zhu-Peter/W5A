@@ -1,0 +1,22 @@
+.header_main{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: darkblue;
+
+    >.header_logo{
+        color: white;
+        font-weight: bold;
+        margin: 5px 0px;
+    }
+
+    >.header_nav{
+        display: grid;
+        grid-template-columns: auto auto;
+
+        >a{
+            color: whitesmoke;
+            text-decoration: none;
+        }
+    }
+}
